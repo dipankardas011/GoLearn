@@ -29,6 +29,7 @@ func Hello(name string) (string, error) {
 	}
 
 	message := fmt.Sprintf(randomFormat(), name)
+	// message := fmt.Sprintf(randomFormat())
 	return message, nil
 }
 
